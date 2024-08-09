@@ -51,7 +51,7 @@ drawGame();
     }else if(userChoice==="paper"){
         userWin= compChoice==="scissors"? false:true;
     }else{
-        userWin=compChoice==="rock"? flase:true;
+        userWin=compChoice==="rock"? false:true;
     }
     showWinner(userWin ,userChoice,compChoice);
 }
